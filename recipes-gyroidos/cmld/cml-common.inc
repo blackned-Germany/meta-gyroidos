@@ -8,8 +8,9 @@ PVBASE := "${PV}"
 PV = "${PVBASE}+${SRCPV}"
 
 CML_HOST ?= "github.com/gyroidos"
+CML_PROTOCOL ?= "https"
 
-SRC_URI = "git://${CML_HOST}/cml.git;branch=${CML_BRANCH};protocol=https"
+SRC_URI = "git://${CML_HOST}/cml.git;branch=${CML_BRANCH};protocol=${CML_PROTOCOL}"
 
 S = "${WORKDIR}/git"
 
