@@ -10,7 +10,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=c6a81c7d46ef4188c8bd511266895d5d"
 
 BRANCH = "master"
 
-SRCREV = "${AUTOREV}"
+SRCREV = "7134d31ec6e7c5feaa33e4fa6cc1eea5dee2e866"
 #SRC_URI = "git://github.com/protobuf-c/protobuf-c-text.git;branch=master;protocol=https"
 SRC_URI = "git://github.com/gyroidos/external_protobuf-c-text.git;branch=${BRANCH};protocol=https"
 
